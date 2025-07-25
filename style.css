@@ -1,0 +1,100 @@
+img{
+    height: 36px;
+    width: 53px;
+}
+.logo{
+    position: relative;
+    right: 30px; 
+}
+header{
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(255, 254, 254);
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(181, 12, 12, 0.1);
+}
+.icon{
+    display: flex;
+    gap: 20px;
+    flex-direction:row;
+    text-align: center;
+}
+.icons{
+    text-align: center;
+    display: flex;
+    font-size: 13px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+position: relative;
+right: 100px;
+}
+
+.search input{
+    padding: 8px 150px 8px 0px ;
+    background-color: rgb(245, 242, 242);
+    border-radius: 5px;
+}
+ nav a{
+    color: rgb(32, 28, 28);
+    margin-right: 40px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+sup{
+    color: red;
+}
+.main{
+    height: 400px;
+    width: 1400px;
+    margin-left: 55px;
+    /* border: 2px solid black; */
+}
+main img{
+    margin-top: 30px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.img1 img{
+    height: 400px;
+    margin-top: 10px;
+} 
+.ad{
+    height: 25px;
+    margin-top: 2px;
+}
+.ad2{
+    margin-top: 55px;
+    height: 100px;
+}
+.ad3{
+    height: 150px;
+}
+
+.products{
+    width: 1450px;
+    height: 250px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+/* .box{
+    width: 230px;
+    height: 200px;
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 15px;
+} */
+.box img{
+    width: 230px;
+    height: 200px;
+}
+.deal{
+    margin-left: 40px;
+    width:1350px;
+}
