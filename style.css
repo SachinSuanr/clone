@@ -43,8 +43,40 @@ right: 100px;
     margin-right: 40px;
     font-size: 15px;
     text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    position: relative;
+    text-decoration: none;
+    padding-bottom: 5px;
+    transition: color 0.3s ease
  }
+
+ 
+  nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px; /* Line thickness */
+    bottom: 0;
+    left: 0;
+    background-color: red; /* Line color */
+    transition: width 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: red; /* Optional: change text color on hover */
+  }
+  
+  nav a:hover::after {
+    width: 100%; /* Full width on hover */
+  }
+  
+  /* Special style for the NEW superscript */
+  nav a sup {
+    font-size: 0.7em;
+    vertical-align: super;
+  }
+
+  
 sup{
     color: red;
 }
@@ -647,3 +679,4 @@ ol {
   color: rgb(91, 89, 89);
   font-weight: bold;
 }
+
