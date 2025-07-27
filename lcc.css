@@ -207,3 +207,7 @@ img{
     color: white;
     margin-left: 70px;
 }
+.read{
+    text-decoration: none;
+    color: gray;
+}
